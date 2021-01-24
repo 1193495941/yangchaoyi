@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Microsoft Yahei",sans-serif;
+    color: white;
+}
+header{
+    padding: 20px;
+    height: 680px;
+    background: black;
+    text-align: center;
+    background-image: url("../images/CP77-VDay-2560x1600_EN.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+header .mobile{
+    display: none;
+}
+@media screen and (max-width: 778px) {
+    header{
+        height: 380px;
+        }
+    nav li{
+        margin: 10px;
+    }
+    header .mobile{
+        display: inline-block;
+    }
+    header .desktop{
+        display: none;
+    }
+}
+header .logo a {
+    background-image: url("../images/cp-logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    top: -75px;
+    text-indent: -999999999px;
+}
+.features {
+    background: white;
+    padding: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+}
+.features figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+.features figure img{
+    border: 2px solid #e4c030;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: #3488c8 0px 0px 10px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* 页脚 */
+footer{
+    background: black;
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
